@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_grasses": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flint-tools:grasses"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "flint-tools:twine"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_twine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flint-tools:twine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_twine",
+      "has_grasses",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flint-tools:twine"
+    ]
+  },
+  "sends_telemetry_event": false
+}

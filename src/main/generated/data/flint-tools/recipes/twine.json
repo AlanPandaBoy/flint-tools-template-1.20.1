@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "flint-tools:grasses"
+    },
+    {
+      "item": "flint-tools:grasses"
+    },
+    {
+      "item": "flint-tools:grasses"
+    }
+  ],
+  "result": {
+    "item": "flint-tools:twine"
+  }
+}

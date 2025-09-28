@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "flint-tools:twine"
+    }
+  },
+  "pattern": [
+    "TS",
+    "ST"
+  ],
+  "result": {
+    "item": "flint-tools:twine_mesh"
+  },
+  "show_notification": true
+}

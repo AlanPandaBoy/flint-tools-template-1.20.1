@@ -1,0 +1,14 @@
+{
+  "item.flint-tools.grasses": "Grasses",
+  "item.flint-tools.twine": "Twine",
+  "item.flint-tools.twine_mesh": "Twine Mesh",
+  "item.flint-tools.sharpened_flint": "Sharpened Flint",
+
+  "item.flint-tools.flint_pickaxe": "Flint Pickaxe",
+  "item.flint-tools.flint_axe": "Flint Axe",
+  "item.flint-tools.flint_shovel": "Flint Shovel",
+  "item.flint-tools.flint_sword": "Flint Sword",
+  "item.flint-tools.flint_hoe": "Flint Hoe",
+
+  "itemgroup.flint_tools": "Flint Tool Group"
+}

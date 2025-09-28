@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "flint-tools:sharpened_flint"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "flint-tools:twine"
+    }
+  },
+  "pattern": [
+    "TR",
+    " S",
+    " S"
+  ],
+  "result": {
+    "item": "flint-tools:flint_shovel"
+  },
+  "show_notification": true
+}
