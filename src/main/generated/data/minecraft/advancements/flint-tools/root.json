@@ -7,6 +7,11 @@
             "items": [
               "flint-tools:twine"
             ]
+          },
+          {
+            "items": [
+              "minecraft:wheat_seeds"
+            ]
           }
         ]
       },
@@ -14,19 +19,20 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/minecraft.png",
     "description": {
-      "text": "Getting a Twine"
+      "text": "A Mod"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "flint-tools:twine"
+      "item": "flint-tools:flint_pickaxe",
+      "nbt": "{Damage:0}"
     },
-    "show_toast": true,
+    "show_toast": false,
     "title": {
-      "text": "Tying Loose Ends"
+      "text": "Flint Tools Mod"
     }
   },
   "requirements": [

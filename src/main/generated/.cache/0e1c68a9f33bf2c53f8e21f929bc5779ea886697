@@ -1,9 +1,10 @@
-// 1.20.1	2025-09-28T15:05:01.6216492	Flint Tools/Model Definitions
+// 1.20.1	2025-09-28T16:17:28.748677	Flint Tools/Model Definitions
 c7106af6d8e48e20147e37467d6852daa9c00b15 assets\flint-tools\models\item\flint_shovel.json
 894f56822cc3ef4305b752c0e6a59afc5adf4afe assets\flint-tools\models\item\flint_sword.json
 28ad8e21615ee37294a9bfb8f72cec15cd94508d assets\flint-tools\models\item\flint_pickaxe.json
 d1f6ecd2c12e538394771e872b7b6a310905b43e assets\flint-tools\models\item\grasses.json
 e186cceed40ce1974e916c8dfbc10d4aea89abf3 assets\flint-tools\models\item\sharpened_flint.json
+62044a0a792c62ada4cbe73da6683dfb7aba09ef assets\flint-tools\models\item\copper_nugget.json
 a9af528d44185785437d76ed5e7f744bde5fa4a0 assets\flint-tools\models\item\twine_mesh.json
 500ae2ff181000824dd8eb38532282156608f8f6 assets\flint-tools\models\item\flint_hoe.json
 497a724b063c4abd2dc8674c466646346e0e3062 assets\flint-tools\models\item\flint_axe.json

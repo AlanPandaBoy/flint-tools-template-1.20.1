@@ -1,9 +1,9 @@
-// 1.20.1	2025-09-28T15:05:01.6226505	Flint Tools/Block Loot Tables
+// 1.20.1	2025-09-28T16:17:28.750679	Flint Tools/Block Loot Tables
 fb4a0400a42534a7677dd49570f009bb03da5e0e data\minecraft\loot_tables\blocks\acacia_log.json
 45451417815e221f8a82839d56569f7131b15ca8 data\minecraft\loot_tables\blocks\spruce_log.json
 c1526f5b429cc8b7202a1770ead1a46408adaae3 data\minecraft\loot_tables\blocks\oak_log.json
-11e9efc000d759082b432adbf8ee07db97ca7e62 data\minecraft\loot_tables\blocks\mangrove_log.json
 ec10b02f0aea39549c213301bca6987ed796ee29 data\minecraft\loot_tables\blocks\dark_oak_log.json
+11e9efc000d759082b432adbf8ee07db97ca7e62 data\minecraft\loot_tables\blocks\mangrove_log.json
 ed4cf0a5b444516589508a78b99937124dad137d data\minecraft\loot_tables\blocks\gravel.json
 3f485a89b2ce3df9c014b2bc37cef072d53ea575 data\minecraft\loot_tables\blocks\jungle_log.json
 16635e9d8c8a8c41d5099a2f9b67f16f9f3b6f4c data\minecraft\loot_tables\blocks\cherry_log.json

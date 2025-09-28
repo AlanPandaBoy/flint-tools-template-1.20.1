@@ -44,6 +44,8 @@ public class TwineMeshItem extends Item {
             return TypedActionResult.success(itemStack);
         } else if  (itemStack2.getItem() == Items.SAND) {
             ItemStack itemStack4 = new ItemStack(TwineMeshItem::getRandomSandItem);
+            itemStack2.decrement(1);
+            player.getStackInHand(hand).damage(1, player,playerEntity1 -> playerEntity1.sendToolBreakStatus(hand));
             player.giveItemStack(itemStack4);
             return TypedActionResult.success(itemStack);
         }
