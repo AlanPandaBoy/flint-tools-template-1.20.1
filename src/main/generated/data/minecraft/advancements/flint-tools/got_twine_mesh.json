@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:flint-tools/root",
+  "criteria": {
+    "got_twine_mesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flint-tools:twine_mesh"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Getting a Twine Mesh"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "flint-tools:twine_mesh",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Getting It Together"
+    }
+  },
+  "requirements": [
+    [
+      "got_twine_mesh"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
