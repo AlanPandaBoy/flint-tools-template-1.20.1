@@ -23,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GRASSES, Models.GENERATED);
         itemModelGenerator.register(ModItems.TWINE_MESH, Models.GENERATED);
         itemModelGenerator.register(ModItems.SHARPENED_FLINT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_NUGGET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.FLINT_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.FLINT_AXE, Models.HANDHELD);
