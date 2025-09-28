@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:flint-tools/root",
+  "parent": "minecraft:flint-tools/got_twine",
   "criteria": {
     "got_twine_mesh": {
       "conditions": {

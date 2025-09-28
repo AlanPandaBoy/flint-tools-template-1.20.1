@@ -36,10 +36,10 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         false // Hidden in the advancement tab
                 )
                 // The first string used in criterion is the name referenced by other advancements when they want to have 'requirements'
-                .criterion("got_twine", InventoryChangedCriterion.Conditions.items(ModItems.TWINE, Items.WHEAT_SEEDS))
+                .criterion("got_grass_drops", InventoryChangedCriterion.Conditions.items(ModItems.GRASSES, Items.WHEAT_SEEDS))
                 .build(exporter, "flint-tools" + "/root");
 
-        Advancement twineAdvancement = Advancement.Builder.create()
+        Advancement twineAdvancement = Advancement.Builder.create().parent(flintToolsAdvancement)
                 .display(
                         ModItems.TWINE, // The display icon
                         Text.literal("Tying Loose Ends"), // The title
@@ -52,7 +52,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                 )
                 // The first string used in criterion is the name referenced by other advancements when they want to have 'requirements'
                 .criterion("got_twine", InventoryChangedCriterion.Conditions.items(ModItems.TWINE))
-                .build(exporter, "flint-tools" + "/root");
+                .build(exporter, "flint-tools" + "/got_twine");
 
         Advancement twineMeshAdvancement = Advancement.Builder.create().parent(twineAdvancement)
                 .display(

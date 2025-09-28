@@ -1,11 +1,11 @@
 {
   "criteria": {
-    "got_twine": {
+    "got_grass_drops": {
       "conditions": {
         "items": [
           {
             "items": [
-              "flint-tools:twine"
+              "flint-tools:grasses"
             ]
           },
           {
@@ -37,7 +37,7 @@
   },
   "requirements": [
     [
-      "got_twine"
+      "got_grass_drops"
     ]
   ],
   "sends_telemetry_event": true
