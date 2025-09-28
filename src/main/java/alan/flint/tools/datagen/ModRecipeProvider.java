@@ -80,5 +80,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.SHARPENED_FLINT), conditionsFromItem(ModItems.SHARPENED_FLINT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.FLINT_HOE)));
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.COPPER_NUGGET, RecipeCategory.MISC,
+                    Items.COPPER_INGOT);
     }
 }

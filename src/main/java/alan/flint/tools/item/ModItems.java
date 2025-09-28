@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item TWINE = registerItem("twine", new Item(new FabricItemSettings()));
 
     public static final Item SHARPENED_FLINT = registerItem("sharpened_flint", new Item(new FabricItemSettings()));
+    public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
 
     public static final Item TWINE_MESH = registerItem("twine_mesh", new TwineMeshItem(new FabricItemSettings().maxDamage(32)));
 

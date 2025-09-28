@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FLINT_PICKAXE);
                         entries.add(ModItems.FLINT_SHOVEL);
                         entries.add(ModItems.FLINT_HOE);
+                        entries.add(ModItems.COPPER_NUGGET);
                     }).build());
     public static void registerItemGroups() {
         FlintTools.LOGGER.info("Registering EarlyTools Item Groups");
