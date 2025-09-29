@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:flint-tools/got_twine_mesh",
+  "criteria": {
+    "got_sharpened_flint": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flint-tools:sharpened_flint"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "text": "Sharpen A Flint"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "flint-tools:sharpened_flint"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Sharpen Up"
+    }
+  },
+  "requirements": [
+    [
+      "got_sharpened_flint"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

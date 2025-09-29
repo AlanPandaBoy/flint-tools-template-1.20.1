@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:flint-tools/got_twine_mesh",
+  "criteria": {
+    "got_raw_copper_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flint-tools:raw_copper_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "text": "Sift For Some Copper"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "flint-tools:raw_copper_nugget"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A Bit Of Copper"
+    }
+  },
+  "requirements": [
+    [
+      "got_raw_copper_nugget"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

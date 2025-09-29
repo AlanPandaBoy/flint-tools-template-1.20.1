@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:flint-tools/root",
+  "criteria": {
+    "got_twine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flint-tools:twine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "text": "Getting a Twine"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "flint-tools:twine"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Tying Loose Ends"
+    }
+  },
+  "requirements": [
+    [
+      "got_twine"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
