@@ -1,5 +1,6 @@
 package alan.flint.tools;
 
+import alan.flint.tools.block.ModBlocks;
 import alan.flint.tools.item.ModItemGroups;
 import alan.flint.tools.item.ModItems;
 import alan.flint.tools.utils.ModLootTableModifiers;
@@ -18,6 +19,7 @@ public class FlintTools implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModLootTableModifiers.modifyLootTables();
 		FlintSharpening.register();
+		ModBlocks.registerModBlocks();
 		LOGGER.info(MOD_ID + " Initialized");
 	}
 }

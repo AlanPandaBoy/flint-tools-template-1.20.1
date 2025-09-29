@@ -4,12 +4,24 @@
   "item.flint-tools.twine_mesh": "Twine Mesh",
   "item.flint-tools.sharpened_flint": "Sharpened Flint",
   "item.flint-tools.copper_nugget": "Copper Nugget",
+  "item.flint-tools.raw_copper_nugget": "Raw Copper Nugget",
 
   "item.flint-tools.flint_pickaxe": "Flint Pickaxe",
   "item.flint-tools.flint_axe": "Flint Axe",
   "item.flint-tools.flint_shovel": "Flint Shovel",
   "item.flint-tools.flint_sword": "Flint Sword",
   "item.flint-tools.flint_hoe": "Flint Hoe",
+
+  "item.flint-tools.copper_pickaxe": "Copper Pickaxe",
+  "item.flint-tools.copper_axe": "Copper Axe",
+  "item.flint-tools.copper_shovel": "Copper Shovel",
+  "item.flint-tools.copper_sword": "Copper Sword",
+  "item.flint-tools.copper_hoe": "Copper Hoe",
+
+  "item.flint-tools.copper_helmet": "Copper Helmet",
+  "item.flint-tools.copper_chestplate": "Copper Chestplate",
+  "item.flint-tools.copper_leggings": "Copper Leggings",
+  "item.flint-tools.copper_boots": "Copper Boots",
 
   "itemgroup.flint_tools": "Flint Tool Group"
 }

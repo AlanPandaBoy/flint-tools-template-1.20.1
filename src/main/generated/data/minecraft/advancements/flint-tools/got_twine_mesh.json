@@ -16,7 +16,7 @@
   },
   "display": {
     "announce_to_chat": true,
-    "background": "minecraft:textures/gui/advancements/backgrounds/minecraft.png",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "description": {
       "text": "Getting a Twine Mesh"
     },

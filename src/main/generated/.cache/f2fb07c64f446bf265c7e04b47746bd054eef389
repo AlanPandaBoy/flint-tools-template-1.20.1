@@ -1,6 +1,6 @@
-// 1.20.1	2025-09-28T16:27:29.3964835	Flint Tools/Advancements
-4a82848ecbad136e27004c700925d92898e4dba1 data\minecraft\advancements\flint-tools\root.json
-55c0596d3ea64e08ac09cdcc0880f2390d132dda data\minecraft\advancements\flint-tools\got_twine_mesh.json
-3f686e60c39df4d44ad5134d890f47f4ea75dd09 data\minecraft\advancements\flint-tools\got_copper_nugget.json
-d2d833ba86d172712bfdb51767964acb816cb3bc data\minecraft\advancements\flint-tools\got_sharpened_flint.json
-d281d5495133287aadfae7119639024e30275013 data\minecraft\advancements\flint-tools\got_twine.json
+// 1.20.1	2025-09-28T19:02:51.5677779	Flint Tools/Advancements
+4fac754f5e5827c6af5d409cd7fc114f83585c76 data\minecraft\advancements\flint-tools\root.json
+e3fe7b7929ed5e21589665adfdbbb045d137009d data\minecraft\advancements\flint-tools\got_twine_mesh.json
+453853fddf0ea73dfc7fbd487f89b7ea49f3b2b6 data\minecraft\advancements\flint-tools\got_raw_copper_nugget.json
+3e3ade7c9f6b6e936f0db30570adf302043ac7b4 data\minecraft\advancements\flint-tools\got_twine.json
+55877215909c7ea43d0338582f3e77b40fb742c4 data\minecraft\advancements\flint-tools\got_sharpened_flint.json

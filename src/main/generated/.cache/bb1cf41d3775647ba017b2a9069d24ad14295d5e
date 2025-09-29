@@ -1,14 +1,17 @@
-// 1.20.1	2025-09-28T16:27:29.3984845	Flint Tools/Recipes
+// 1.20.1	2025-09-28T19:02:51.5702956	Flint Tools/Recipes
 ab0c44daa42b8497f387c206d4dcd55a69687e3e data\flint-tools\recipes\copper_nugget.json
 a61ae2202160081bc52b98afa281bb88431f5fd3 data\flint-tools\recipes\copper_ingot.json
 20ead9fc66aee4d393c6d561d7a4003d390a431b data\flint-tools\advancements\recipes\misc\copper_ingot.json
+e70e457a8eaa67a0736d2c41fb53611a1960ac92 data\flint-tools\recipes\raw_copper_nugget.json
 1612118ebd581043db00c2674ad7a79e7dcacb60 data\flint-tools\advancements\recipes\building_blocks\twine.json
 49e028b2ebeb51a095ad76c87dd6e615f1638c14 data\flint-tools\advancements\recipes\misc\copper_nugget.json
 d06a15c6068ce52a5a68abfa157828441faa0957 data\flint-tools\advancements\recipes\misc\twine_mesh.json
 2ebaaccd2ce26de0942f25502aecc6865a6e86cb data\flint-tools\recipes\flint_pickaxe.json
 f21f876f2bb261fe46fde8bd6aa2ef755e3796fd data\flint-tools\advancements\recipes\misc\flint_axe.json
 4fd43bea6a48dc20d0330f774f6e51149592d020 data\flint-tools\advancements\recipes\misc\flint_hoe.json
+8b0d62e23c78c02b3d3aebc9e3f23c226fafc79d data\flint-tools\advancements\recipes\misc\raw_copper_nugget.json
 5df37d51fd12470829661b40fd146b65387a8e4b data\flint-tools\recipes\twine.json
+97351cc182be3c45fcd500eb513bc5110056d234 data\flint-tools\advancements\recipes\misc\raw_copper.json
 7c370d0e9f07c3b081134eafe412cbfbc8a2191f data\flint-tools\recipes\flint_sword.json
 b1eb10cca83d743c2a3270c128302f7686133c12 data\flint-tools\advancements\recipes\misc\flint_pickaxe.json
 643c712568bfec9f3064859d5f7ccc5d5b7c465a data\flint-tools\recipes\flint_axe.json
@@ -17,3 +20,4 @@ d955ad311d0b7af16d2251704491c156c30ed0fe data\flint-tools\advancements\recipes\m
 d21d1ab85a3cc8673cac1231af3481794a9117a1 data\flint-tools\recipes\twine_mesh.json
 1a77c16d404b73db78219909fe66c6018a623152 data\flint-tools\recipes\flint_shovel.json
 876525307e5e965da79be20c309b994a985118ed data\flint-tools\advancements\recipes\misc\flint_shovel.json
+302c5ade36eaaccef29b6b7938c9780efd43feb0 data\flint-tools\recipes\raw_copper.json

@@ -17,19 +17,40 @@ public class ModItems {
 
     public static final Item SHARPENED_FLINT = registerItem("sharpened_flint", new Item(new FabricItemSettings()));
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
+    public static final Item RAW_COPPER_NUGGET = registerItem("raw_copper_nugget", new Item(new FabricItemSettings()));
 
     public static final Item TWINE_MESH = registerItem("twine_mesh", new TwineMeshItem(new FabricItemSettings().maxDamage(32)));
 
     public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
-            new PickaxeItem(ModToolMaterial.FLINT,  1, -2.8f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.FLINT,  2, -2.8f, new FabricItemSettings()));
     public static final Item FLINT_AXE = registerItem("flint_axe",
             new AxeItem(ModToolMaterial.FLINT,  4, -3f, new FabricItemSettings()));
     public static final Item FLINT_SHOVEL = registerItem("flint_shovel",
             new ShovelItem(ModToolMaterial.FLINT,  1.5f, -3f, new FabricItemSettings()));
     public static final Item FLINT_SWORD = registerItem("flint_sword",
-            new SwordItem(ModToolMaterial.FLINT,  2, -2.4f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.FLINT,  3, -2.4f, new FabricItemSettings()));
     public static final Item FLINT_HOE = registerItem("flint_hoe",
-            new HoeItem(ModToolMaterial.FLINT,  0, -3f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.FLINT,  1, -3f, new FabricItemSettings()));
+
+    public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
+            new PickaxeItem(ModToolMaterial.COPPER,  2, -2.3f, new FabricItemSettings()));
+    public static final Item COPPER_AXE = registerItem("copper_axe",
+            new AxeItem(ModToolMaterial.COPPER,  5, -2.5f, new FabricItemSettings()));
+    public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
+            new ShovelItem(ModToolMaterial.COPPER,  2f, -3f, new FabricItemSettings()));
+    public static final Item COPPER_SWORD = registerItem("copper_sword",
+            new SwordItem(ModToolMaterial.COPPER,  4, -1.8f, new FabricItemSettings()));
+    public static final Item COPPER_HOE = registerItem("copper_hoe",
+            new HoeItem(ModToolMaterial.COPPER,  2, -2.7f, new FabricItemSettings()));
+
+    public static final Item COPPER_HELMET = registerItem("copper_helmet",
+            new ArmorItem(ModArmorMaterials.COPPER,  ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
+            new ArmorItem(ModArmorMaterials.COPPER,  ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
+            new ArmorItem(ModArmorMaterials.COPPER,  ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item COPPER_BOOTS = registerItem("copper_boots",
+            new ArmorItem(ModArmorMaterials.COPPER,  ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(GRASSES);

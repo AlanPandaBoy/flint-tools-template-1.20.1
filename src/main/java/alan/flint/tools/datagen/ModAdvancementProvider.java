@@ -29,7 +29,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         ModItems.FLINT_PICKAXE, // The display icon
                         Text.literal("Flint Tools Mod"), // The title
                         Text.literal("A Mod"), // The description
-                        new Identifier("textures/gui/advancements/backgrounds/minecraft.png"), // Background image used
+                        new Identifier("textures/gui/advancements/backgrounds/stone.png"), // Background image used
                         AdvancementFrame.TASK, // Options: TASK, CHALLENGE, GOAL
                         false, // Show toast top right
                         false, // Announce to chat
@@ -44,7 +44,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         ModItems.TWINE, // The display icon
                         Text.literal("Tying Loose Ends"), // The title
                         Text.literal("Getting a Twine"), // The description
-                        new Identifier("textures/gui/advancements/backgrounds/minecraft.png"), // Background image used
+                        new Identifier("textures/gui/advancements/backgrounds/stone.png"), // Background image used
                         AdvancementFrame.TASK, // Options: TASK, CHALLENGE, GOAL
                         true, // Show toast top right
                         true, // Announce to chat
@@ -59,7 +59,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         ModItems.TWINE_MESH, // The display icon
                         Text.literal("Getting It Together"), // The title
                         Text.literal("Getting a Twine Mesh"), // The description
-                        new Identifier("textures/gui/advancements/backgrounds/minecraft.png"), // Background image used
+                        new Identifier("textures/gui/advancements/backgrounds/stone.png"), // Background image used
                         AdvancementFrame.TASK, // Options: TASK, CHALLENGE, GOAL
                         true, // Show toast top right
                         true, // Announce to chat
@@ -74,7 +74,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         ModItems.SHARPENED_FLINT, // The display icon
                         Text.literal("Sharpen Up"), // The title
                         Text.literal("Sharpen A Flint"), // The description
-                        new Identifier("textures/gui/advancements/backgrounds/minecraft.png"), // Background image used
+                        new Identifier("textures/gui/advancements/backgrounds/stone.png"), // Background image used
                         AdvancementFrame.TASK, // Options: TASK, CHALLENGE, GOAL
                         true, // Show toast top right
                         true, // Announce to chat
@@ -85,17 +85,17 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                 .build(exporter, "flint-tools" + "/got_sharpened_flint");
         Advancement copperNuggetAdvancement = Advancement.Builder.create().parent(twineMeshAdvancement)
                 .display(
-                        ModItems.COPPER_NUGGET, // The display icon
+                        ModItems.RAW_COPPER_NUGGET, // The display icon
                         Text.literal("A Bit Of Copper"), // The title
                         Text.literal("Sift For Some Copper"), // The description
-                        new Identifier("textures/gui/advancements/backgrounds/minecraft.png"), // Background image used
+                        new Identifier("textures/gui/advancements/backgrounds/stone.png"), // Background image used
                         AdvancementFrame.TASK, // Options: TASK, CHALLENGE, GOAL
                         true, // Show toast top right
                         true, // Announce to chat
                         false // Hidden in the advancement tab
                 )
                 // The first string used in criterion is the name referenced by other advancements when they want to have 'requirements'
-                .criterion("got_copper_nugget", InventoryChangedCriterion.Conditions.items(ModItems.COPPER_NUGGET))
-                .build(exporter, "flint-tools" + "/got_copper_nugget");
+                .criterion("got_raw_copper_nugget", InventoryChangedCriterion.Conditions.items(ModItems.RAW_COPPER_NUGGET))
+                .build(exporter, "flint-tools" + "/got_raw_copper_nugget");
     }
 }

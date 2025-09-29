@@ -17,15 +17,33 @@ public class ModItemGroups {
                         entries.add(ModItems.GRASSES);
                         entries.add(ModItems.TWINE);
                         entries.add(ModItems.TWINE_MESH);
+
                         entries.add(ModItems.SHARPENED_FLINT);
+
                         entries.add(ModItems.FLINT_SWORD);
                         entries.add(ModItems.FLINT_AXE);
                         entries.add(ModItems.FLINT_PICKAXE);
                         entries.add(ModItems.FLINT_SHOVEL);
                         entries.add(ModItems.FLINT_HOE);
+
                         entries.add(ModItems.COPPER_NUGGET);
+                        entries.add(ModItems.RAW_COPPER_NUGGET);
+
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_HOE);
+
+                        entries.add(ModItems.COPPER_HELMET);
+                        entries.add(ModItems.COPPER_CHESTPLATE);
+                        entries.add(ModItems.COPPER_LEGGINGS);
+                        entries.add(ModItems.COPPER_BOOTS);
                     }).build());
     public static void registerItemGroups() {
         FlintTools.LOGGER.info("Registering EarlyTools Item Groups");
     }
 }
+// n FF7F27
+// l FF940A
+// d DE6E22
