@@ -1,5 +1,6 @@
 package alan.flint.tools.datagen;
 
+import alan.flint.tools.block.ModBlocks;
 import alan.flint.tools.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -84,5 +85,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                     Items.COPPER_INGOT);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_COPPER_NUGGET, RecipeCategory.MISC,
                     Items.RAW_COPPER);
+        //public static void offerShapelessRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible input, @Nullable String group, int outputCount)
+        offerShapelessRecipe(exporter, Items.STICK, ModBlocks.TWIG, "stick_from_twig", 2);
+
     }
 }

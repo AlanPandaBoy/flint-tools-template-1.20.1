@@ -12,16 +12,7 @@
   "item.flint-tools.flint_sword": "Flint Sword",
   "item.flint-tools.flint_hoe": "Flint Hoe",
 
-  "item.flint-tools.copper_pickaxe": "Copper Pickaxe",
-  "item.flint-tools.copper_axe": "Copper Axe",
-  "item.flint-tools.copper_shovel": "Copper Shovel",
-  "item.flint-tools.copper_sword": "Copper Sword",
-  "item.flint-tools.copper_hoe": "Copper Hoe",
-
-  "item.flint-tools.copper_helmet": "Copper Helmet",
-  "item.flint-tools.copper_chestplate": "Copper Chestplate",
-  "item.flint-tools.copper_leggings": "Copper Leggings",
-  "item.flint-tools.copper_boots": "Copper Boots",
+  "block.flint-tools.twig": "Twig",
 
   "itemgroup.flint_tools": "Flint Tool Group"
 }

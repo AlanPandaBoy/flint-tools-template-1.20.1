@@ -1,12 +1,17 @@
 package alan.flint.tools.datagen;
 
+import alan.flint.tools.FlintTools;
+import alan.flint.tools.block.ModBlocks;
 import alan.flint.tools.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Block;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -32,16 +37,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FLINT_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.FLINT_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.FLINT_HOE, Models.HANDHELD);
-
-        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.COPPER_HOE, Models.HANDHELD);
-
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.COPPER_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.COPPER_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.COPPER_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.COPPER_BOOTS);
+        itemModelGenerator.register(ModBlocks.TWIG.asItem(), Models.HANDHELD);
     }
 }

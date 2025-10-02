@@ -1,5 +1,6 @@
 package alan.flint.tools.datagen;
 
+import alan.flint.tools.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Blocks;
@@ -71,6 +72,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 .pool(LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .with(ItemEntry.builder(Blocks.GRAVEL)
+                                .conditionally(MatchToolLootCondition.builder(
+                                        ItemPredicate.Builder.create())))));
+        addDrop(ModBlocks.TWIG, LootTable.builder()
+                .pool(LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(ModBlocks.TWIG)
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create())))));
     }

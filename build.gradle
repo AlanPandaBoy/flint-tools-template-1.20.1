@@ -1,4 +1,4 @@
-plugins {
+ plugins {
 	id 'fabric-loom' version "${loom_version}"
 	id 'maven-publish'
 }
@@ -23,6 +23,9 @@ fabricApi {
 		client = true
 	}
 }
+ tasks.withType(ProcessResources).configureEach {
+	 duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+ }
 
 dependencies {
 	// To change the versions see the gradle.properties file

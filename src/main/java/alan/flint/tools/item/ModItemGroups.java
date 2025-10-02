@@ -1,6 +1,7 @@
 package alan.flint.tools.item;
 
 import alan.flint.tools.FlintTools;
+import alan.flint.tools.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -29,16 +30,8 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.RAW_COPPER_NUGGET);
 
-                        entries.add(ModItems.COPPER_SWORD);
-                        entries.add(ModItems.COPPER_AXE);
-                        entries.add(ModItems.COPPER_SHOVEL);
-                        entries.add(ModItems.COPPER_PICKAXE);
-                        entries.add(ModItems.COPPER_HOE);
+                        entries.add(ModBlocks.TWIG);
 
-                        entries.add(ModItems.COPPER_HELMET);
-                        entries.add(ModItems.COPPER_CHESTPLATE);
-                        entries.add(ModItems.COPPER_LEGGINGS);
-                        entries.add(ModItems.COPPER_BOOTS);
                     }).build());
     public static void registerItemGroups() {
         FlintTools.LOGGER.info("Registering EarlyTools Item Groups");
