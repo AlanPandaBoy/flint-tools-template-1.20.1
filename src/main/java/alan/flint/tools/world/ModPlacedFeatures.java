@@ -14,6 +14,8 @@ import java.util.List;
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> TWIGS =
             RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("flint-tools", "twigs"));
+    public static final RegistryKey<PlacedFeature> SHELLS =
+            RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("flint-tools", "shells"));
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         context.register(TWIGS,
@@ -22,6 +24,16 @@ public class ModPlacedFeatures {
                                 .getOrThrow(ModConfiguredFeatures.TWIGS),
                         List.of(
                                 CountPlacementModifier.of(20),
+                                SquarePlacementModifier.of(),
+                                PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP,
+                                BiomePlacementModifier.of()
+                        )));
+        context.register(SHELLS,
+                new PlacedFeature(
+                        context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE)
+                                .getOrThrow(ModConfiguredFeatures.SHELLS),
+                        List.of(
+                                CountPlacementModifier.of(10),
                                 SquarePlacementModifier.of(),
                                 PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP,
                                 BiomePlacementModifier.of()

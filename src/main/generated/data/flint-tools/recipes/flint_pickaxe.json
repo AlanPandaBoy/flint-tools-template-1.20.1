@@ -13,9 +13,8 @@
     }
   },
   "pattern": [
-    "RRR",
-    "TS ",
-    " S "
+    "RT",
+    "SR"
   ],
   "result": {
     "item": "flint-tools:flint_pickaxe"

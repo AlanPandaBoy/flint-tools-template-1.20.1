@@ -80,5 +80,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         .with(ItemEntry.builder(ModBlocks.TWIG)
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create())))));
+        addDrop(ModBlocks.STRONG_SHELL, LootTable.builder()
+                .pool(LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(ModBlocks.STRONG_SHELL)
+                                .conditionally(MatchToolLootCondition.builder(
+                                        ItemPredicate.Builder.create())))));
+        addDrop(ModBlocks.WEAK_SHELL, LootTable.builder()
+                .pool(LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(ModBlocks.WEAK_SHELL)
+                                .conditionally(MatchToolLootCondition.builder(
+                                        ItemPredicate.Builder.create())))));
+
     }
 }

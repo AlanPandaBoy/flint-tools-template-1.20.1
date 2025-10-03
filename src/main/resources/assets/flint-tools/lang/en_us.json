@@ -12,7 +12,22 @@
   "item.flint-tools.flint_sword": "Flint Sword",
   "item.flint-tools.flint_hoe": "Flint Hoe",
 
+  "item.flint-tools.weak_shell_pickaxe": "Weak Shell Pickaxe",
+  "item.flint-tools.weak_shell_axe": "Weak Shell Axe",
+  "item.flint-tools.weak_shell_shovel": "Weak Shell Shovel",
+  "item.flint-tools.weak_shell_sword": "Weak Shell Sword",
+  "item.flint-tools.weak_shell_hoe": "Weak Shell Hoe",
+
+  "item.flint-tools.strong_shell_pickaxe": "Strong Shell Pickaxe",
+  "item.flint-tools.strong_shell_axe": "Strong Shell Axe",
+  "item.flint-tools.strong_shell_shovel": "Strong Shell Shovel",
+  "item.flint-tools.strong_shell_sword": "Strong Shell Sword",
+  "item.flint-tools.strong_shell_hoe": "Strong Shell Hoe",
+
   "block.flint-tools.twig": "Twig",
+
+  "block.flint-tools.weak_shell": "Weak Shell",
+  "block.flint-tools.strong_shell": "Strong Shell",
 
   "itemgroup.flint_tools": "Flint Tool Group"
 }

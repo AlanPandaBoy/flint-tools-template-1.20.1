@@ -16,8 +16,6 @@ public class ModItems {
     public static final Item TWINE = registerItem("twine", new Item(new FabricItemSettings()));
 
     public static final Item SHARPENED_FLINT = registerItem("sharpened_flint", new Item(new FabricItemSettings()));
-    public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
-    public static final Item RAW_COPPER_NUGGET = registerItem("raw_copper_nugget", new Item(new FabricItemSettings()));
 
     public static final Item TWINE_MESH = registerItem("twine_mesh", new TwineMeshItem(new FabricItemSettings().maxDamage(32)));
 
@@ -31,6 +29,28 @@ public class ModItems {
             new SwordItem(ModToolMaterial.FLINT,  3, -2.4f, new FabricItemSettings()));
     public static final Item FLINT_HOE = registerItem("flint_hoe",
             new HoeItem(ModToolMaterial.FLINT,  1, -3f, new FabricItemSettings()));
+
+    public static final Item WEAK_SHELL_PICKAXE = registerItem("weak_shell_pickaxe",
+            new PickaxeItem(ModToolMaterial.WEAK_SHELL,  2, -2.8f, new FabricItemSettings()));
+    public static final Item WEAK_SHELL_AXE = registerItem("weak_shell_axe",
+            new AxeItem(ModToolMaterial.WEAK_SHELL,  4.5f, -3f, new FabricItemSettings()));
+    public static final Item WEAK_SHELL_SHOVEL = registerItem("weak_shell_shovel",
+            new ShovelItem(ModToolMaterial.WEAK_SHELL,  1.5f, -3f, new FabricItemSettings()));
+    public static final Item WEAK_SHELL_SWORD = registerItem("weak_shell_sword",
+            new SwordItem(ModToolMaterial.WEAK_SHELL,  4, -2.4f, new FabricItemSettings()));
+    public static final Item WEAK_SHELL_HOE = registerItem("weak_shell_hoe",
+            new HoeItem(ModToolMaterial.WEAK_SHELL,  1, -3f, new FabricItemSettings()));
+
+    public static final Item STRONG_SHELL_PICKAXE = registerItem("strong_shell_pickaxe",
+            new PickaxeItem(ModToolMaterial.WEAK_SHELL,  2, -2.8f, new FabricItemSettings()));
+    public static final Item STRONG_SHELL_AXE = registerItem("strong_shell_axe",
+            new AxeItem(ModToolMaterial.WEAK_SHELL,  6.5f, -3f, new FabricItemSettings()));
+    public static final Item STRONG_SHELL_SHOVEL = registerItem("strong_shell_shovel",
+            new ShovelItem(ModToolMaterial.WEAK_SHELL,  1.5f, -3f, new FabricItemSettings()));
+    public static final Item STRONG_SHELL_SWORD = registerItem("strong_shell_sword",
+            new SwordItem(ModToolMaterial.WEAK_SHELL,  5, -2.4f, new FabricItemSettings()));
+    public static final Item STRONG_SHELL_HOE = registerItem("strong_shell_hoe",
+            new HoeItem(ModToolMaterial.WEAK_SHELL,  1, -3f, new FabricItemSettings()));
 
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(GRASSES);

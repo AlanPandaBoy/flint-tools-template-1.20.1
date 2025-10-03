@@ -1,5 +1,6 @@
 package alan.flint.tools.item.custom;
 
+import alan.flint.tools.block.ModBlocks;
 import alan.flint.tools.item.ModItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -16,7 +17,7 @@ import java.util.Random;
 public class TwineMeshItem extends Item {
 
     public static final List<Item> SAND_LOOT_ITEMS = Arrays.asList(
-            ModItems.COPPER_NUGGET,
+            ModBlocks.STRONG_SHELL.asItem(),
             Items.FLINT,
             Items.FLINT,
             Items.FLINT,

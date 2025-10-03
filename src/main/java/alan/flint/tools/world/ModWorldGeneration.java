@@ -12,5 +12,10 @@ public class ModWorldGeneration {
                 GenerationStep.Feature.VEGETAL_DECORATION,
                 ModPlacedFeatures.TWIGS
         );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_BEACH),
+                GenerationStep.Feature.VEGETAL_DECORATION,
+                ModPlacedFeatures.SHELLS
+        );
     }
 }

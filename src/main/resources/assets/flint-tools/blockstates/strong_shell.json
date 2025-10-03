@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "flint-tools:block/shell" }
+  }
+}

@@ -1,6 +1,7 @@
 package alan.flint.tools.block;
 
 import alan.flint.tools.FlintTools;
+import alan.flint.tools.block.custom.ShellBlock;
 import alan.flint.tools.block.custom.TwigBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -17,6 +18,11 @@ public class ModBlocks {
 
     public static final Block TWIG = registerBlock("twig",
             new TwigBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).noCollision().nonOpaque().strength(0.2f)));
+    public static final Block WEAK_SHELL = registerBlock("weak_shell",
+            new ShellBlock(FabricBlockSettings.create().noCollision().nonOpaque().strength(0f).sounds(BlockSoundGroup.STONE)));
+    public static final Block STRONG_SHELL = registerBlock("strong_shell",
+            new ShellBlock(FabricBlockSettings.create().noCollision().nonOpaque().strength(0.1f).sounds(BlockSoundGroup.STONE)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

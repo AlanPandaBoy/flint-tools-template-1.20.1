@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "flint-tools:block/shell",
+    "all": "flint-tools:block/shell"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 1, 16],
+      "faces": {
+        "up":   { "texture": "#all" },
+        "down": { "texture": "#all" }
+      }
+    }
+  ]
+}

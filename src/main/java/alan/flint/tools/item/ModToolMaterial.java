@@ -1,5 +1,6 @@
 package alan.flint.tools.item;
 
+import alan.flint.tools.block.ModBlocks;
 import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
@@ -10,6 +11,10 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
     FLINT(MiningLevels.WOOD, 30, 3.0f, 0.0f, 5,
             () -> Ingredient.ofItems(Items.FLINT)),
+    WEAK_SHELL(MiningLevels.WOOD, 40, 3.5f, 0.0f, 6,
+            () -> Ingredient.ofItems(ModBlocks.WEAK_SHELL.asItem())),
+    STRONG_SHELL(MiningLevels.WOOD, 60, 4.0f, 0.0f, 7,
+            () -> Ingredient.ofItems(ModBlocks.STRONG_SHELL.asItem())),
     ;
     /*
     WOOD(MiningLevels.WOOD, 59, 2.0F, 0.0F, 15, () -> Ingredient.fromTag(ItemTags.PLANKS)),

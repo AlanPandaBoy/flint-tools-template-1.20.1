@@ -13,9 +13,8 @@
     }
   },
   "pattern": [
-    "TR",
-    " S",
-    " S"
+    "RT",
+    "S "
   ],
   "result": {
     "item": "flint-tools:flint_shovel"

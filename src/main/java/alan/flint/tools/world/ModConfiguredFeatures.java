@@ -13,12 +13,19 @@ import java.util.List;
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> TWIGS =
             RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier("flint-tools", "twigs"));
+    public static final RegistryKey<ConfiguredFeature<?, ?>> SHELLS =
+            RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier("flint-tools", "shells"));
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         context.register(TWIGS,
                 new ConfiguredFeature<>(
                         Feature.SIMPLE_BLOCK,
                         new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TWIG))
+                ));
+        context.register(SHELLS,
+                new ConfiguredFeature<>(
+                        Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.WEAK_SHELL))
                 ));
     }
 }

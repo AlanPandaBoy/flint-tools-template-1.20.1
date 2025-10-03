@@ -1,5 +1,6 @@
 package alan.flint.tools.datagen;
 
+import alan.flint.tools.block.ModBlocks;
 import alan.flint.tools.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricAdvancementProvider;
@@ -83,11 +84,11 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                 // The first string used in criterion is the name referenced by other advancements when they want to have 'requirements'
                 .criterion("got_sharpened_flint", InventoryChangedCriterion.Conditions.items(ModItems.SHARPENED_FLINT))
                 .build(exporter, "flint-tools" + "/got_sharpened_flint");
-        Advancement copperNuggetAdvancement = Advancement.Builder.create().parent(twineMeshAdvancement)
+        Advancement strongShellAdvancement = Advancement.Builder.create().parent(twineMeshAdvancement)
                 .display(
-                        ModItems.RAW_COPPER_NUGGET, // The display icon
-                        Text.literal("A Bit Of Copper"), // The title
-                        Text.literal("Sift For Some Copper"), // The description
+                        ModBlocks.STRONG_SHELL.asItem(), // The display icon
+                        Text.literal("Getting Stronger"), // The title
+                        Text.literal("Sift For Stronger Shells"), // The description
                         new Identifier("textures/gui/advancements/backgrounds/stone.png"), // Background image used
                         AdvancementFrame.TASK, // Options: TASK, CHALLENGE, GOAL
                         true, // Show toast top right
@@ -95,7 +96,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         false // Hidden in the advancement tab
                 )
                 // The first string used in criterion is the name referenced by other advancements when they want to have 'requirements'
-                .criterion("got_raw_copper_nugget", InventoryChangedCriterion.Conditions.items(ModItems.RAW_COPPER_NUGGET))
-                .build(exporter, "flint-tools" + "/got_raw_copper_nugget");
+                .criterion("got_strong_shell", InventoryChangedCriterion.Conditions.items(ModBlocks.STRONG_SHELL.asItem()))
+                .build(exporter, "flint-tools" + "/got_strong_shell");
     }
 }

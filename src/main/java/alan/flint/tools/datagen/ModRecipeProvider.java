@@ -33,9 +33,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.TWINE), conditionsFromItem(ModItems.TWINE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.TWINE_MESH)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FLINT_PICKAXE, 1)
-                .pattern("RRR")
-                .pattern("TS ")
-                .pattern(" S ")
+                .pattern("RT")
+                .pattern("SR")
                 .input('S', Items.STICK)
                 .input('R', ModItems.SHARPENED_FLINT)
                 .input('T', ModItems.TWINE)
@@ -52,9 +51,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.SHARPENED_FLINT), conditionsFromItem(ModItems.SHARPENED_FLINT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.FLINT_AXE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FLINT_SHOVEL, 1)
-                .pattern("TR")
-                .pattern(" S")
-                .pattern(" S")
+                .pattern("RT")
+                .pattern("S ")
                 .input('S', Items.STICK)
                 .input('R', ModItems.SHARPENED_FLINT)
                 .input('T', ModItems.TWINE)
@@ -81,12 +79,107 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.SHARPENED_FLINT), conditionsFromItem(ModItems.SHARPENED_FLINT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.FLINT_HOE)));
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.COPPER_NUGGET, RecipeCategory.MISC,
-                    Items.COPPER_INGOT);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_COPPER_NUGGET, RecipeCategory.MISC,
-                    Items.RAW_COPPER);
         //public static void offerShapelessRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible input, @Nullable String group, int outputCount)
         offerShapelessRecipe(exporter, Items.STICK, ModBlocks.TWIG, "stick_from_twig", 2);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STRONG_SHELL_PICKAXE, 1)
+                .pattern("RRR")
+                .pattern("TS ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.STRONG_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.STRONG_SHELL.asItem()), conditionsFromItem(ModBlocks.STRONG_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STRONG_SHELL_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STRONG_SHELL_AXE, 1)
+                .pattern("RT")
+                .pattern(" S")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.STRONG_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.STRONG_SHELL.asItem()), conditionsFromItem(ModBlocks.STRONG_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STRONG_SHELL_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STRONG_SHELL_SHOVEL, 1)
+                .pattern("TR")
+                .pattern(" S")
+                .pattern(" S")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.STRONG_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.STRONG_SHELL.asItem()), conditionsFromItem(ModBlocks.STRONG_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STRONG_SHELL_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STRONG_SHELL_SWORD, 1)
+                .pattern(" R")
+                .pattern("TR")
+                .pattern(" S")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.STRONG_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.STRONG_SHELL.asItem()), conditionsFromItem(ModBlocks.STRONG_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STRONG_SHELL_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STRONG_SHELL_HOE, 1)
+                .pattern("RR")
+                .pattern("TS")
+                .pattern(" S")
+                .input('T', ModItems.TWINE)
+                .input('R', ModBlocks.STRONG_SHELL.asItem())
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.STRONG_SHELL.asItem()), conditionsFromItem(ModBlocks.STRONG_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STRONG_SHELL_HOE)));
 
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WEAK_SHELL_PICKAXE, 1)
+                .pattern("RT")
+                .pattern("SR")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.WEAK_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.WEAK_SHELL.asItem()), conditionsFromItem(ModBlocks.WEAK_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WEAK_SHELL_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WEAK_SHELL_AXE, 1)
+                .pattern("RT")
+                .pattern(" S")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.WEAK_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.WEAK_SHELL.asItem()), conditionsFromItem(ModBlocks.WEAK_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WEAK_SHELL_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WEAK_SHELL_SHOVEL, 1)
+                .pattern("RT")
+                .pattern("S ")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.WEAK_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.WEAK_SHELL.asItem()), conditionsFromItem(ModBlocks.WEAK_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WEAK_SHELL_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WEAK_SHELL_SWORD, 1)
+                .pattern(" R")
+                .pattern("TR")
+                .pattern(" S")
+                .input('S', Items.STICK)
+                .input('R', ModBlocks.WEAK_SHELL.asItem())
+                .input('T', ModItems.TWINE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.WEAK_SHELL.asItem()), conditionsFromItem(ModBlocks.WEAK_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WEAK_SHELL_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WEAK_SHELL_HOE, 1)
+                .pattern("RR")
+                .pattern("TS")
+                .pattern(" S")
+                .input('T', ModItems.TWINE)
+                .input('R', ModBlocks.WEAK_SHELL.asItem())
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModBlocks.WEAK_SHELL.asItem()), conditionsFromItem(ModBlocks.WEAK_SHELL.asItem()))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WEAK_SHELL_HOE)));
     }
 }

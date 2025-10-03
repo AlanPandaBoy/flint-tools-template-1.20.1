@@ -17,6 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.FLINT_AXE);
+                .add(ModItems.STRONG_SHELL_AXE);
+        //make another one of these to check if can mine stone
     }
 }

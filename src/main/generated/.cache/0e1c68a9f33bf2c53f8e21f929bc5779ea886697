@@ -1,13 +1,23 @@
-// 1.20.1	2025-10-01T16:22:35.7166413	Flint Tools/Model Definitions
+// 1.20.1	2025-10-02T20:51:51.7736054	Flint Tools/Model Definitions
 c7106af6d8e48e20147e37467d6852daa9c00b15 assets\flint-tools\models\item\flint_shovel.json
+b5b155d053d44d7d0a930d11ec7d76b38945de0a assets\flint-tools\models\item\weak_shell_shovel.json
+7613e0a45e4e14dfff3be87f0ce0e4edd4e4eb81 assets\flint-tools\models\item\weak_shell_pickaxe.json
+e186cceed40ce1974e916c8dfbc10d4aea89abf3 assets\flint-tools\models\item\sharpened_flint.json
+93f9bea451ee7ee3907a4682cfcd7ed92a6ac42d assets\flint-tools\models\item\strong_shell_shovel.json
+16cfa8e7edc99cbb68113867331a7c26f46b1b66 assets\flint-tools\models\item\weak_shell.json
+882bc459ba3389b384dd6f1cc51108ed0dc330ea assets\flint-tools\models\item\strong_shell_pickaxe.json
+497a724b063c4abd2dc8674c466646346e0e3062 assets\flint-tools\models\item\flint_axe.json
+500ae2ff181000824dd8eb38532282156608f8f6 assets\flint-tools\models\item\flint_hoe.json
 894f56822cc3ef4305b752c0e6a59afc5adf4afe assets\flint-tools\models\item\flint_sword.json
+0d69aef9834b196c72c7595570dece12cd2a2cbf assets\flint-tools\models\item\strong_shell_sword.json
 28ad8e21615ee37294a9bfb8f72cec15cd94508d assets\flint-tools\models\item\flint_pickaxe.json
 d1f6ecd2c12e538394771e872b7b6a310905b43e assets\flint-tools\models\item\grasses.json
-6202ed0c9a50ce4c82b8aaae7a0d14948392ce1f assets\flint-tools\models\item\raw_copper_nugget.json
 de606823ded9a4e177e2a72de94e36e28ca2702f assets\flint-tools\models\item\twig.json
-e186cceed40ce1974e916c8dfbc10d4aea89abf3 assets\flint-tools\models\item\sharpened_flint.json
-62044a0a792c62ada4cbe73da6683dfb7aba09ef assets\flint-tools\models\item\copper_nugget.json
+2594bd3c9bf4494a70773f1f1215cc5b30632911 assets\flint-tools\models\item\strong_shell.json
+269708c6be27655a0725cdaa91ed186eed78f8f4 assets\flint-tools\models\item\weak_shell_sword.json
+b503f76c24982265ae8a4fde43f37f073f8b852b assets\flint-tools\models\item\strong_shell_axe.json
 a9af528d44185785437d76ed5e7f744bde5fa4a0 assets\flint-tools\models\item\twine_mesh.json
-500ae2ff181000824dd8eb38532282156608f8f6 assets\flint-tools\models\item\flint_hoe.json
-497a724b063c4abd2dc8674c466646346e0e3062 assets\flint-tools\models\item\flint_axe.json
+4f483ed17cb0a545c3f68fe1ebb63e286c3c221e assets\flint-tools\models\item\strong_shell_hoe.json
+d65bc88885534a2ee3591918e9561284ad9ac0e6 assets\flint-tools\models\item\weak_shell_axe.json
 425e8ee103ac4a6770302638e605f67098adf695 assets\flint-tools\models\item\twine.json
+e8c1e64cf91feaa504e07d0129bca37a3377609d assets\flint-tools\models\item\weak_shell_hoe.json

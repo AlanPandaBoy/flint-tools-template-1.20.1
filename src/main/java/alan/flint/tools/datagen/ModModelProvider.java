@@ -11,6 +11,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -29,8 +30,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GRASSES, Models.GENERATED);
         itemModelGenerator.register(ModItems.TWINE_MESH, Models.GENERATED);
         itemModelGenerator.register(ModItems.SHARPENED_FLINT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.COPPER_NUGGET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_COPPER_NUGGET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.FLINT_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.FLINT_AXE, Models.HANDHELD);
@@ -38,5 +37,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FLINT_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.FLINT_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModBlocks.TWIG.asItem(), Models.HANDHELD);
+        itemModelGenerator.register(ModBlocks.STRONG_SHELL.asItem(), Models.HANDHELD);
+        itemModelGenerator.register(ModBlocks.WEAK_SHELL.asItem(), Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.WEAK_SHELL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WEAK_SHELL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WEAK_SHELL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WEAK_SHELL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WEAK_SHELL_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.STRONG_SHELL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STRONG_SHELL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STRONG_SHELL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STRONG_SHELL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STRONG_SHELL_PICKAXE, Models.HANDHELD);
     }
 }
